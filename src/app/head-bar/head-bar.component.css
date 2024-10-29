@@ -1,0 +1,17 @@
+
+.h-b{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: yellow;
+    height:40%;
+
+    padding: 40px;
+}
+
+.search button{
+
+    color: yellow;
+    border: color solid black ;
+    background-color: black; 
+}

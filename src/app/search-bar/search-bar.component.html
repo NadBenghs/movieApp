@@ -1,0 +1,9 @@
+
+<div class="s-b">
+<div><input type="text" id="movie-title" name="movie-title" placeholder="saisir un titre ici..." 
+     [(ngModel)]="searchTitle"
+    (keypress)="searchedMovie()" 
+    (keyup.backspace)="searchedMovie()" 
+    (input)="searchedMovie()" ><i class='bx bxs-search' style="font-size: 16px; color: yellow;"></i></div>
+<div><label for="movie-title"></label></div>
+</div>
