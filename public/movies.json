@@ -1,102 +1,114 @@
 [
     {
+      "id":25,
       "originalTitle": "The Equalizer 3",
       "originalLanguage": "eng",
       "releaseDate": "2023-09-01",
       "voteAverage": 7.5,
       "voteCount": 1500,
       "Overview": "Robert McCall returns to settle old scores and protect his loved ones.",
-      "imageUrl": "assets/images/equalizer3.jpg"
+      "imageUrl": "images/equalizer3.jpg"
     },
     {
+      "id":12,
       "originalTitle": "Mission Impossible: Dead Reckoning Part 1",
       "originalLanguage": "eng",
       "releaseDate": "2023-07-12",
       "voteAverage": 8.2,
       "voteCount": 2000,
       "Overview": "Ethan Hunt and his IMF team embark on their most dangerous mission yet.",
-      "imageUrl": "assets/images/mission_impossible.jpg"
+      "imageUrl": "images/mission_impossible.jpg"
     },
     {
+      "id":1,
       "originalTitle": "Uri: The Surgical Strike",
       "originalLanguage": "hin",
       "releaseDate": "2019-01-11",
       "voteAverage": 7.8,
       "voteCount": 1200,
       "Overview": "A story based on true events, showcasing the surgical strikes conducted by the Indian army.",
-      "imageUrl": "assets/images/uri.jpg"
+      "imageUrl": "images/uri.jpg"
     },
     {
+      "id":2,
       "originalTitle": "The Nun II",
       "originalLanguage": "eng",
       "releaseDate": "2023-09-08",
       "voteAverage": 6.4,
       "voteCount": 800,
       "Overview": "A priest investigates a series of mysterious deaths linked to a demonic nun.",
-      "imageUrl": "assets/images/the_nun_ii.jpg"
+      "imageUrl": "images/the_nun_ii.jpg"
     },
     {
+      "id":3,
       "originalTitle": "Mortal Kombat Legends: Cage Match",
       "originalLanguage": "eng",
       "releaseDate": "2023-03-08",
       "voteAverage": 6.0,
       "voteCount": 600,
       "Overview": "Johnny Cage battles his way through an underground tournament.",
-      "imageUrl": "assets/images/mortal_kombat_legends.jpg"
+      "imageUrl": "images/mortal_kombat_legends.jpg"
     },
     {
+      "id":4,
       "originalTitle": "57 Seconds",
       "originalLanguage": "eng",
       "releaseDate": "2023-11-01",
       "voteAverage": 5.9,
       "voteCount": 400,
       "Overview": "A man discovers a device that allows him to relive the last 57 seconds of life.",
-      "imageUrl": "assets/images/57_seconds.jpg"
+      "imageUrl": "images/57_seconds.jpg"
     },
     {
+      "id":5,
       "originalTitle": "Meg 2: The Trench",
       "originalLanguage": "eng",
       "releaseDate": "2023-08-04",
       "voteAverage": 6.3,
       "voteCount": 900,
       "Overview": "A deep-sea adventure pits a group against prehistoric sharks.",
-      "imageUrl": "assets/images/meg_2.jpg"
+      "imageUrl": "images/meg_2.jpg"
     },
     {
+      "id":6,
       "originalTitle": "Sound Off",
       "originalLanguage": "eng",
       "releaseDate": "2023-06-15",
       "voteAverage": 7.0,
       "voteCount": 300,
       "Overview": "A musical drama about a group of friends pursuing their dreams in music.",
-      "imageUrl": "assets/images/sound_off.jpg"
+      "imageUrl": "images/sound_off.jpg"
     },
     {
+      "id":7,
       "originalTitle": "Star Wars: Episode IV - A New Hope",
       "originalLanguage": "eng",
       "releaseDate": "1977-05-25",
       "voteAverage": 8.6,
       "voteCount": 20000,
       "Overview": "A young farm boy joins forces with a band of rebels to defeat an evil empire.",
-      "imageUrl": "assets/images/star_wars.jpg"
+      "imageUrl": "images/star_wars.jpg"
     },
     {
+      "id":8,
       "originalTitle": "Deadpool",
       "originalLanguage": "eng",
       "releaseDate": "2016-02-12",
       "voteAverage": 8.0,
       "voteCount": 18000,
       "Overview": "A former special forces operative becomes a vigilante with accelerated healing powers.",
-      "imageUrl": "assets/images/deadpool.jpg"
+      "imageUrl": "images/deadpool.jpg"
     },
     {
+    
+      "id":9,
       "originalTitle": "Avengers: Endgame",
       "originalLanguage": "eng",
       "releaseDate": "2019-04-26",
       "voteAverage": 8.4,
       "voteCount": 100000,
       "Overview": "The Avengers assemble once more to reverse the damage caused by Thanos.",
-      "imageUrl": "assets/images/avengers_endgame.jpg"
+      "imageUrl": "images/avengers_endgame.jpg" 
     }
   ]
   

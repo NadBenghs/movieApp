@@ -1,33 +1,30 @@
 import { Injectable } from '@angular/core';
-import { HttpClient } from '@angular/common/http';
-import { Observable } from 'rxjs';
+import { HttpClientModule, HttpClient } from '@angular/common/http';
 import { Movie } from './movie';
-import { map } from 'rxjs/operators';
-
-
+import { map, Observable } from 'rxjs'; 
 
 @Injectable({
-  providedIn: 'root'
+  providedIn: 'root',
 })
 export class MovieService {
-  private jsonUrl = 'assets/movies.json';
+  private jsonUrl = "/movies.json";
+
+  constructor(private http:HttpClient) {}
+
  
-  constructor(private http: HttpClient) {}
-
-
-  searchAllMovies(): Observable<Movie[]> {
-    return this.http.get<any[]>(this.jsonUrl);
+  getAllMovies() : Observable<Movie[]> {
+    return this.http.get<Movie[]>(this.jsonUrl);
   }
 
-   
-  searchMovieByTitle(titre: string): Observable<Movie[]> 
-  {
-    let filteredMovies = this.http.get<Movie[]>(this.jsonUrl).pipe(
-      map((movies: Movie[]) =>
-        movies.filter(movie =>
-          movie.originalTitle.toLowerCase().includes(titre.toLowerCase())))
-        );
-        return filteredMovies;
-}
-}
 
+
+  searchMovieById(id: number) : Observable<Movie | undefined>
+  {
+    return this.getAllMovies().pipe(
+      map(movies => movies.find(movie => movie.id === id))
+    );
+  }
+
+
+
+}

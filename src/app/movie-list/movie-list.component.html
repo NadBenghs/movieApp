@@ -1,1 +1,10 @@
-<p>movie-list works!</p>
+<app-search-bar (titleSearch)="searchMovieByTitle($event)"></app-search-bar>
+
+<div *ngFor="let movie of filteredMovies">
+  <h3><img [src]="movie.imageUrl"></h3>
+  <h3>{{ movie.originalTitle }}</h3>
+  <h3>{{ movie.originalLanguage }}</h3>
+  <h3>{{ movie.releaseDate}}</h3>
+  <h3>{{ movie.voteAverage }}</h3>
+  <h3>{{ movie.voteCount }}</h3>
+</div>
