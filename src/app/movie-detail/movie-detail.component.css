@@ -1,0 +1,25 @@
+
+.movie-details{
+background-color: black;
+color:white;
+height: 100vh;
+}
+
+
+.movie{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.movie img{
+    margin:15px;
+    width: 400px;
+    height: 650px;
+}
+
+strong,h2{
+
+    color:yellow;
+}
+

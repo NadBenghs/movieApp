@@ -1,1 +1,27 @@
-<p>movie-detail works!</p>
+
+<div  class="movie-details">
+
+    <div>
+    <div *ngIf="movie">
+    
+    <div class="movie">
+        <div>
+            <div class="image"><img [src]="movie.imageUrl">"</div>
+        </div>
+        <div>
+            <div><h2>{{ movie.originalTitle }}</h2></div>
+            <div><strong>Titre original : </strong>{{ movie.originalTitle }}</div>
+            <div><strong>Langue originale :</strong> {{ movie.originalLanguage }}</div>
+            <div><strong>Date de sortie :</strong> {{ movie.releaseDate}}</div>
+            <div><strong>Note moyenne :</strong> {{ movie.voteAverage }}</div>
+            <div><strong>Nombre de votes :</strong> {{ movie.voteCount }}</div>
+            <div><strong>Résumé :</strong> {{ movie.Overview }}</div>
+        </div>
+   </div>
+    </div> 
+
+</div>
+    
+    
+ </div>
+    

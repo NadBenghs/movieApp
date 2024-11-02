@@ -1,10 +1,15 @@
+
 <app-search-bar (titleSearch)="searchMovieByTitle($event)"></app-search-bar>
 
+<div  class="movie-image">
+
 <div *ngFor="let movie of filteredMovies">
-  <h3><img [src]="movie.imageUrl"></h3>
-  <h3>{{ movie.originalTitle }}</h3>
-  <h3>{{ movie.originalLanguage }}</h3>
-  <h3>{{ movie.releaseDate}}</h3>
-  <h3>{{ movie.voteAverage }}</h3>
-  <h3>{{ movie.voteCount }}</h3>
+
+  <div>
+  <a   [routerLink]="['movie', movie.id]" id="{{movie.id}}">
+    <img [src]="movie.imageUrl">
+    <h3>{{movie.originalTitle}}</h3>
+  </a>
+
+  </div>
 </div>

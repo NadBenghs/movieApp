@@ -1,12 +1,14 @@
 import { Component, NgModule, EventEmitter,Input,Output} from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import {  HttpClient, HttpClientModule } from '@angular/common/http';
+import { RouterOutlet,RouterModule } from '@angular/router';
 import { Movie } from '../movie'; 
 import { MovieService } from '../movie.service';
+import { MovieDetailComponent } from "../movie-detail/movie-detail.component";
 @Component({
   selector: 'app-search-bar',
   standalone: true,
-  imports: [FormsModule,HttpClientModule],
+  imports: [FormsModule, HttpClientModule, MovieDetailComponent,RouterModule,RouterOutlet],
   templateUrl: './search-bar.component.html',
   styleUrl: './search-bar.component.css'
 })
